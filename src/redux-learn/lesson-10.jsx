@@ -1,3 +1,8 @@
+/**
+ * Created by moon on 2017/8/18.
+ * Avoiding Object Mutations with Object.assign() and ...spread
+ */
+
 // @flow
 import expect from 'expect';
 import deepFreeze from 'deep-freeze';
@@ -18,7 +23,6 @@ const testToggleTodo = () => {
     id: 0,
     text: 'Learn Redux',
     completed: false,
-    ts: '1',
   };
 
   const todoAfter = {
@@ -35,4 +39,4 @@ const testToggleTodo = () => {
 };
 
 testToggleTodo();
-console.log('All tests passed.');
+console.log('lesson-10 All tests passed.');

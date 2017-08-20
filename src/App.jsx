@@ -3,7 +3,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './redux-learn/lesson-10';
+import './redux-learn';
 
 const App = () => (
   <div className="App">
