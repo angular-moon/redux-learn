@@ -78,6 +78,7 @@ const testToggleTodo = () => {
       completed: false,
     },
   ];
+
   const action = {
     type: 'TOGGLE_TODO',
     id: 1,
@@ -105,4 +106,6 @@ const testToggleTodo = () => {
 
 testAddTodo();
 testToggleTodo();
+
+// eslint-disable-next-line
 console.log('lesson-13 All tests passed.');

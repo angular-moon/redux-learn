@@ -24,7 +24,6 @@ const testToggleTodo = () => {
     text: 'Learn Redux',
     completed: false,
   };
-
   const todoAfter = {
     id: 0,
     text: 'Learn Redux',
@@ -39,4 +38,6 @@ const testToggleTodo = () => {
 };
 
 testToggleTodo();
+
+// eslint-disable-next-line
 console.log('lesson-10 All tests passed.');

@@ -96,4 +96,6 @@ const testToggleTodo = () => {
 
 testAddTodo();
 testToggleTodo();
+
+// eslint-disable-next-line
 console.log('lesson-12 All tests passed.');

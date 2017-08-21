@@ -47,4 +47,6 @@ const testAddTodo = () => {
 };
 
 testAddTodo();
+
+// eslint-disable-next-line
 console.log('lesson-11 All tests passed.');
